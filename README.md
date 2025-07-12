@@ -2,14 +2,21 @@
 
 Students:
 •  john.doe@example.com | password123
+
 •  jane.smith@example.com | password123
+
 •  mike.johnson@example.com | password123
 
+
 Recruiters:
+
 •  sarah.wilson@techcorp.com | password123
+
 •  david.brown@innovate.com | password123
 
+
 💡 What you can now test:
+
 
 ✅ Student Features:
 •  Browse job listings
