@@ -40,4 +40,6 @@ app.use("/api/v1/application",applicationRoute);
 app.listen(PORT,() => {
     connectDB();
     console.log(`server running at port ${PORT}`);
+    console.log(`API Base URL: http://localhost:${PORT}/api/v1`);
+    console.log(`Test endpoint: http://localhost:${PORT}/api/v1/test`);
 })

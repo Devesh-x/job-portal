@@ -5,3 +5,13 @@ export const USER_API_END_POINT = import.meta.env.VITE_USER_API_ENDPOINT || `${A
 export const JOB_API_END_POINT = import.meta.env.VITE_JOB_API_END_POINT || `${API_BASE_URL}/job`;
 export const APPLICATION_API_END_POINT = import.meta.env.VITE_APPLICATION_API_END_POINT || `${API_BASE_URL}/application`;
 export const COMPANY_API_END_POINT = import.meta.env.VITE_COMPANY_API_END_POINT || `${API_BASE_URL}/company`;
+
+// Debug: Log the API endpoints in development
+if (import.meta.env.DEV) {
+  console.log('API Endpoints:', {
+    USER_API_END_POINT,
+    JOB_API_END_POINT,
+    APPLICATION_API_END_POINT,
+    COMPANY_API_END_POINT
+  });
+}
