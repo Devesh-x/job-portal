@@ -15,3 +15,11 @@ if (import.meta.env.DEV) {
     COMPANY_API_END_POINT
   });
 }
+
+// Also log in production for debugging
+console.log('Current API Endpoints:', {
+  USER_API_END_POINT,
+  JOB_API_END_POINT,
+  APPLICATION_API_END_POINT,
+  COMPANY_API_END_POINT
+});

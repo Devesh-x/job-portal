@@ -60,6 +60,7 @@ const Signup = () => {
 
     try {
       dispatch(setLoading(true));
+      console.log('Attempting signup with URL:', `${USER_API_END_POINT}/register`);
       const res = await axios.post(`${USER_API_END_POINT}/register`, formData, {
         headers: {
           "Content-Type": "multipart/form-data"

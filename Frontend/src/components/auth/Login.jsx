@@ -34,6 +34,7 @@ const Login = () => {
     e.preventDefault();
     try {
       dispatch(setLoading(true));
+      console.log('Attempting login with URL:', `${USER_API_END_POINT}/login`);
       const res = await axios.post(`${USER_API_END_POINT}/login`, input, {
         headers:{
           "Content-Type":"application/json"
